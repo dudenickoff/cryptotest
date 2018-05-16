@@ -1,0 +1,73 @@
+
+
+/* General
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+/* Body
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.currency {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+    select {
+        border-radius: 3px;
+        padding: 5px;
+        border: 1px solid rgba(163,158,158, 1);
+    }
+}
+.converter {
+    background: rgba(163,158,158, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    h1 {
+        text-align: center;
+    }
+
+    input {
+        margin: 10px;
+        border-radius: 3px;
+        padding: 5px;
+        width: 30%;
+        border: 1px solid rgba(163,158,158, 1);
+    } 
+
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px;
+        padding-top: 10px;
+
+        select {
+            width: 40%;
+            border-radius: 3px;
+            padding: 5px;
+            border: 1px solid rgba(163,158,158, 1);
+        }
+    }
+}
+.historical { 
+    margin-top: 40px;
+
+    select {
+        width: 20%;
+        border-radius: 3px;
+        padding: 5px;
+        border: 1px solid rgba(163,158,158, 1);
+    }
+}
+.live {
+    margin-top: 20px;
+}
